@@ -1,0 +1,19 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f8f9fa;
+  color: var(--color-text, #333);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-primary, #2c3e50);
+  margin-bottom: 1rem;
+}
+
+button {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: var(--radius-md, 4px);
+  background: var(--color-primary, #2c3e50);
+  color: white;
+}
